@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="14" skipped="0" failures="14" errors="0" time="34.406369" timestamp="2022-11-24T04:15:15+00:00" hostname="jenkins-agent-portal4-int.qa-pod-us-east-1.immunet.com">
+<properties>
+<property name="seed" value="63825"/>
+</properties>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Proof of Value order type can be created" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000020"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that MSSP Partner order type can be created" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000003"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Primary Organization order type can be created" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000003"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Employee order type can be created" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Partner order type can be created" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests On the Users Tab verify users details" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Employee created order type can be deleted" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that Partner created order type can be deleted" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that newly created Proof of Value can be updated - User changes" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000003"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that newly created MSSP Partner can be updated - User changes" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that newly created Primary Organization can be updated - User changes" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that newly created Employee can be updated - User changes" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Verify that newly created Partner can be updated - User changes" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000002"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.support_portal_smoke_test_spec" name="Production Support Portal Smoke Tests on production support page Navigate through all the tabs" file="./tools/production_smoke_test/support_portal_smoke_test_spec.rb" time="0.000003"><failure message="OrgSelector not on expected page" type="RuntimeError">Failure/Error: raise &quot;#{self.class.name} not on expected page&quot; unless on_page?
+
+RuntimeError:
+  OrgSelector not on expected page
+./lib/amp_node.rb:517:in `on_page!&apos;
+./pages/login/securex_login_delegate.rb:62:in `perform_login&apos;
+./pages/login/login_provider.rb:39:in `login&apos;
+./pages/login/LoginPage.rb:91:in `login_with_tfa&apos;
+./helpers/login_helper.rb:25:in `login_to_support_portal&apos;
+./tools/production_smoke_test/support_portal_smoke_test_spec.rb:132:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+</testsuite>
