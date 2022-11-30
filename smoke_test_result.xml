@@ -1,4 +1,4 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="rspec" tests="22" skipped="0" failures="18" errors="0" time="89.647226" timestamp="2022-11-30T04:00:15+00:00" hostname="jenkins-agent-portal1-int.qa-pod-us-east-1.immunet.com">
 <properties>
 <property name="seed" value="47555"/>

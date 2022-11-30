@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="rspec" tests="22" skipped="0" failures="2" errors="0" time="228.216651" timestamp="2022-11-28T04:00:14+00:00" hostname="jenkins-agent-portal1-int.qa-pod-us-east-1.immunet.com">
 <properties>
 <property name="seed" value="52548"/>
