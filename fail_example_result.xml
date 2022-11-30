@@ -1,28 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="rspec" tests="22" skipped="0" failures="0" errors="0" time="301.928836" timestamp="2022-11-30T03:49:15+00:00" hostname="jenkins-agent-portal4-int.qa-pod-us-east-1.immunet.com">
+<testsuite name="rspec" tests="22" skipped="0" failures="18" errors="0" time="89.647226" timestamp="2022-11-30T04:00:15+00:00" hostname="jenkins-agent-portal1-int.qa-pod-us-east-1.immunet.com">
 <properties>
-<property name="seed" value="8541"/>
+<property name="seed" value="47555"/>
 </properties>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests creates a windows policy with default setting and group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="33.571537"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests downloads connector, register and send events" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="5.235079"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page verifies number of events in event page by using group name" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="15.823892"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Scan Start is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="8.406868"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Scan Completed is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="9.948906"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Threat Detected is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="9.239411"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Threates Detected in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.115652"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Network Threats in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.111260"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Quarantines in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.140301"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Compromises in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.145684"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Exploits Prevented in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.142981"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Retrospective Events in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.163154"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Connectors Deployed in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.166058"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests File Trajectory verifies the FT shows data for the file" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="23.648541"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests Device Trajectory searches computer guid, and verifies DT page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="10.683920"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests computer page searches computer page and verfies the computer shows" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="15.676284"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests pagination in Events and Computers page verifies pagination on computers page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="37.471788"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests pagination in Events and Computers page verifies pagination on events page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="27.231087"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of computers" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.543104"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of policies" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.899710"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of groups" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.437848"></testcase>
-<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of events" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.935285"></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests creates a windows policy with default setting and group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="47.641939"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests downloads connector, register and send events" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.327942"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page verifies number of events in event page by using group name" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="1.260609"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Scan Start is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.018698"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Scan Completed is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.013899"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard Events page Threat Detected is showed in events list for selected group" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.015512"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Threates Detected in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000013"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Network Threats in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000005"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Quarantines in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000002"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Compromises in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000002"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Exploits Prevented in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000002"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Retrospective Events in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000002"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests on Dashboard, Overview page verfies number of Connectors Deployed in bragbar, overview page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000002"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: overview =  DashboardOverviewPage.to_here
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/dashboard/NavTabs.rb:5:in `block in nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:5:in `nav_tabs&apos;
+./pages/dashboard/NavTabs.rb:13:in `tabs&apos;
+./pages/dashboard/NavTabs.rb:46:in `click_tab_by_name_or_route&apos;
+./pages/dashboard/NavTabs.rb:32:in `click_overview_tab&apos;
+./pages/router.rb:33:in `public_send&apos;
+./pages/router.rb:33:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/dashboard/overview/dashboard_overview_page.rb:25:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:202:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests File Trajectory verifies the FT shows data for the file" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="1.148819"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests Device Trajectory searches computer guid, and verifies DT page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="1.173591"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests computer page searches computer page and verfies the computer shows" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="2.173492"><failure message="RSpec::Core::MultipleExceptionError" type="RSpec::Core::MultipleExceptionError">
+</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests pagination in Events and Computers page verifies pagination on computers page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000014"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: mid_result = yield
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/common/spinners.rb:27:in `get_spinner_list&apos;
+./pages/common/spinners.rb:45:in `any_spinners_displayed?&apos;
+./pages/common/spinners.rb:86:in `block in wait_all_spinners_to_disappear&apos;
+./lib/common/waitable.rb:31:in `block in wait&apos;
+./lib/common/waitable.rb:30:in `wait&apos;
+./pages/common/spinners.rb:86:in `wait_all_spinners_to_disappear&apos;
+./lib/amp_node.rb:516:in `on_page!&apos;
+./pages/router.rb:27:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/accounts_menu/demo_data_page.rb:107:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:291:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests pagination in Events and Computers page verifies pagination on events page" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.000003"><failure message="unexpected alert open: {Alert text : }
+  (Session info: headless chrome=103.0.5060.134)" type="Selenium::WebDriver::Error::UnexpectedAlertOpenError">Failure/Error: mid_result = yield
+
+Selenium::WebDriver::Error::UnexpectedAlertOpenError:
+  unexpected alert open: {Alert text : }
+    (Session info: headless chrome=103.0.5060.134)
+#0 0x55d034244cd3 &lt;unknown&gt;
+#1 0x55d03404c968 &lt;unknown&gt;
+#2 0x55d0340b4c4f &lt;unknown&gt;
+#3 0x55d0340a1aa3 &lt;unknown&gt;
+#4 0x55d0340773fa &lt;unknown&gt;
+#5 0x55d034078555 &lt;unknown&gt;
+#6 0x55d03428c2bd &lt;unknown&gt;
+#7 0x55d034290418 &lt;unknown&gt;
+#8 0x55d03427636e &lt;unknown&gt;
+#9 0x55d034291078 &lt;unknown&gt;
+#10 0x55d03426abb0 &lt;unknown&gt;
+#11 0x55d0342add58 &lt;unknown&gt;
+#12 0x55d0342aded8 &lt;unknown&gt;
+#13 0x55d0342c7cfd &lt;unknown&gt;
+#14 0x7f13f0712ea5 &lt;unknown&gt;
+./pages/common/spinners.rb:27:in `get_spinner_list&apos;
+./pages/common/spinners.rb:45:in `any_spinners_displayed?&apos;
+./pages/common/spinners.rb:86:in `block in wait_all_spinners_to_disappear&apos;
+./lib/common/waitable.rb:31:in `block in wait&apos;
+./lib/common/waitable.rb:30:in `wait&apos;
+./pages/common/spinners.rb:86:in `wait_all_spinners_to_disappear&apos;
+./lib/amp_node.rb:516:in `on_page!&apos;
+./pages/router.rb:27:in `block in go&apos;
+./pages/router.rb:14:in `each&apos;
+./pages/router.rb:14:in `go&apos;
+./pages/accounts_menu/demo_data_page.rb:107:in `to_here&apos;
+./tools/production_smoke_test/portal_smoke_test_spec.rb:291:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of computers" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.231462"></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of policies" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.744715"></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of groups" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.117745"></testcase>
+<testcase classname="tools.production_smoke_test.portal_smoke_test_spec" name="Production Smoke Tests testing some public API gets list of events" file="./tools/production_smoke_test/portal_smoke_test_spec.rb" time="0.912384"></testcase>
 </testsuite>
