@@ -32,14 +32,19 @@ def test_data_report()
 {
     message = ""
     testcase_type_map.each{ key, val ->
-        num_passed = val["total_test_num"] - val["fail_test_num"]
-        num_failed = val["fail_test_num"]
-        message += "${key} [Failed]: ${num_failed} [Passed]: ${num_passed}\n"
+        if(val["fail_test_num"] > 0)
+        {
+            message += "${key.capitalize()} [Failed]: ${val["fail_test_num"]}\n"
+        }
+        else
+        {
+            message += "${key.capitalize()} [Passed]\n"
+        }
     }
     return message
 }
 
-String fileContents = new File('/var/jenkins_home/workspace/hello_world_1/smoke_test_result.xml').getText('UTF-8')
+String fileContents = new File('/var/jenkins_home/workspace/hello_world_1/fail_example_result.xml').getText('UTF-8')
 def response = new XmlSlurper().parseText(fileContents)
 def testcases = response.testcase
 def message = ""
