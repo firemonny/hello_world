@@ -2,13 +2,13 @@ smoke_test_prefix = "Production Smoke Tests "
 testcase_type_map = [
     "creates a windows policy with default setting and group": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
     "downloads connector, register and send events": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
-    "on Dashboard Events page": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
-    "on Dashboard, Overview page": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
+    "dashboard and Events page": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
+    "dashboard and overview page": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
     "File Trajectory": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
     "Device Trajectory": ["test_result":"Passed","total_test_num":0,"fail_test_num":0],
     "computer page searches":["test_result":"Passed","total_test_num":0,"fail_test_num":0],
-    "pagination in Events and Computers":["test_result":"Passed","total_test_num":0,"fail_test_num":0],
-    "testing some public API":["test_result":"Passed","total_test_num":0,"fail_test_num":0]
+    "Pagination on Events and Computers Page by using Demo Data":["test_result":"Passed","total_test_num":0,"fail_test_num":0],
+    "Testing public APIs (computers, policies, groups, events)":["test_result":"Passed","total_test_num":0,"fail_test_num":0]
     ]
 
 def testcase_data_mapping(testcase)
